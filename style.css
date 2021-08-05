@@ -1,0 +1,93 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    line-height: 1.2;
+    color: #1b1c1e;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url('./images/eggscape.png');
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 13rem;
+    padding-right: 13rem;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    margin-top: 2rem;
+    font-size: 32px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 2rem;
+}
+
+li {
+    margin-left: 3rem;
+}
+
+.active {
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: #1b1c1e;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header .hero {
+    margin-top: 10rem;
+}
+
+header .hero p {
+    letter-spacing: 5px;
+    font-size: 22px;
+    color: #f8a006;
+}
+
+header .hero h1 {
+    font-size: 85px;
+    font-weight: 600;
+    margin-bottom: 3.5rem;
+}
+
+input[type='submit'] {
+    width: 170px;
+    height: 45px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border-radius: 99px;
+    cursor: pointer;
+}
+
+input[value='CONTACT'] {
+    background: #f6b039;
+    color: #fff;
+    border: 2px solid #f8a006;
+    margin-right: 1rem;
+}
+
+input[value='ABOUT US'] {
+    background: transparent;
+    color: #000;
+    border: 2px solid #000;
+}
